@@ -55,3 +55,7 @@ These apply to all rate limiters in this library.
  * Aquiring permits affect the next aquire, and not the current. That is, the next aquire will happen at the same time regardless of how many permits it requires. The amount of permits it aquired affects how long until the next aquire will be allowed.
 
  Thanks to Mike Cheng. This code is based on https://github.com/mfycheng/ratelimiter repository.
+Working o integrating below code as well.
++https://github.com/rigtorp/TokenBucket
++https://github.com/4sily/rate-limiter-cpp
++https://www.programmersought.com/article/24306507098/
